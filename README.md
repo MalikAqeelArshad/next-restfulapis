@@ -198,3 +198,4 @@ I'm creative front-end and back-end developer for building interactive mobile an
 I have a very strong technical background in the IT area and excellent commands over CSS, JavaScript, NextJS, NuxtJS, VueJS, ReactJS/Native, InertiaJS, Laravel, NodeJS, Git and Mobile Apps Development.
 
 If you face any difficulty, please contact me: `+971569369306` or email `malik.aqeelarshad@gmail.com`
+
