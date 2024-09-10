@@ -46,13 +46,13 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 #### Get all users
 
-```http
+```bash
   GET /api/users
 ```
 
 #### Create new user
 
-```http
+```bash
   POST /api/users
 ```
 
@@ -62,7 +62,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 #### Update user
 
-```http
+```bash
   PUT /api/users
 ```
 
@@ -73,7 +73,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 #### Delete user
 
-```http
+```bash
   DELETE /api/users
 ```
 
@@ -83,7 +83,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 #### Get all categories by user
 
-```http
+```bash
   GET /api/categories?userId=add_user_id_here
 ```
 
@@ -93,7 +93,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 #### Create new category
 
-```http
+```bash
   POST /api/categories
 ```
 
@@ -103,7 +103,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 #### GET single category
 
-```http
+```bash
   PATCH /api/categories/:id
 ```
 
@@ -113,7 +113,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 #### Update category
 
-```http
+```bash
   PUT /api/categories/:id
 ```
 
@@ -123,7 +123,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 #### Delete category
 
-```http
+```bash
   DELETE /api/categories/:id
 ```
 
@@ -133,7 +133,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 #### Get all blogs by user and category
 
-```http
+```bash
   GET /api/blogs?userId=add_user_id_here&categoryId=add_category_id_here
 ```
 
@@ -143,7 +143,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 #### Create new blog
 
-```http
+```bash
   POST /api/blogs
 ```
 
@@ -154,7 +154,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 #### GET single blog
 
-```http
+```bash
   PATCH /api/blogs/:id
 ```
 
@@ -164,7 +164,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 #### Update blog
 
-```http
+```bash
   PUT /api/blogs/:id
 ```
 
@@ -175,7 +175,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 #### Delete blog
 
-```http
+```bash
   DELETE /api/blogs/:id
 ```
 
@@ -186,7 +186,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 #### Filters
 
-```http
+```bash
   GET /api/blogs?page=1,limit=10,keywords=search_keywords,startDate=2024-09-09,endDate=2024-09-10
 ```
 ## 🚀 About Me
